@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.App-Main
+{
+  font-family: 'Roboto', sans-serif;
+}
+.Div-Test
+{
+  color: black;
+  font-size: 60px;
+  text-align: center;
+  padding-top: 30px;
+}
+.Button1
+{
+  margin-top: 30px;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  height: 100px;
+  width: 350px;
+  border-radius: 50px;
+  background-image: linear-gradient(to bottom right, #78C1F3, #1a93e4);
+  font-size: 30px;
+  text-shadow:0px 0.5px 0.5px #2f6627;
+  text-decoration: none;
+  border: 1px solid grey;
+  transition: 0.5s;
+  cursor: default;
+  position: relative;
+}
+.Button1:hover 
+{
+  height: 105px;
+  font-size: 31.5px;
+  width: 367.5px;
+  transition: 0.7s;
+  cursor: pointer;
+  background-image: linear-gradient(to top left, #78C1F3, #1a93e4);
+}
+.Button1:active
+{
+  transition: 0.3;
+  vertical-align: top;
+  padding: 12px 13px 6px;
+}
+@media screen and (min-width: 300px) and (max-width: 900px)
+  {
+    Button1
+    {
+      background-color: #78C1F3;  
+    }
+    Button1:hover
+    {
+      height: 100px !important;
+      width: 350px !important;
+    }
+    .description
+    {
+      width: 80% !important; 
+    }
+  }
+
+.aka
+{
+  font-size: 25px;
+  font-style: italic;
+  color: rgb(37, 37, 37);
+}
+.aka1
+{
+  font-size: 35px;
+}
+.description
+{
+  font-size: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  width: 60%;
+  padding-top: 40px;
+  text-align: justify;
+}
+.bold
+{
+  font-weight: bold;
+}
+.center
+{
+  text-align: center;
+  display: block;
+  font-size: 25px;
+  font-weight: bold;
+  padding-top: 20px;
+}
+#result
+{
+  font-size: 50px;
+  padding-top: 40px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 90%;
+}
+#whathappens
+{
+  padding-top: 10px;
+  position: relative;
+  width: 90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 50px;
+}
+#w
+{
+  padding-top: 30px;
+}
+.img 
+{
+  width: 375px;
+  height: 314px;
+}
+.FBI
+{
+  padding-top: -10px;
+  font-size: 10px;
+  text-align: center;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
