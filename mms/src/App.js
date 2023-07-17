@@ -81,7 +81,8 @@ function App() {
       "Goofy lesz",
       "Bealszik",
       "Megveri a gépét",
-      "Megveri a betont"
+      "Megveri a betont",
+      "Megharapja Katát"
     ]
     document.getElementById("whathappens").innerHTML = wh[(Math.floor(Math.random() * wh.length))];
   }
